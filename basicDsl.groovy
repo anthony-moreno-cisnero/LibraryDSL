@@ -1,4 +1,4 @@
-job('Job-GitHub') {
+job('Job-GitHub-2') {
   description('Job DSL creado desde GiotHub')
   scm {
     git('https://github.com/macloujulian/jenkins.job.parametrizado.git', 'main') { node ->
