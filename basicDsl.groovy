@@ -12,6 +12,7 @@ job('Job-GitHub') {
   }
   triggers {
     cron('H/7 * * * *')
+    githubPush()
   }
   steps {
     shell("bash jobscript.sh")
